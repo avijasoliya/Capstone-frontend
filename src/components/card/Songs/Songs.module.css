@@ -1,0 +1,22 @@
+.card {
+  padding: var(--space-md) var(--space-2xl);
+  background-color: transparent;
+  transition: all 0.3s linear;
+  cursor: pointer;
+  border-radius: var(--space-sm);
+}
+
+.card:hover {
+  background-color: #000;
+}
+
+.imgWrapper {
+  border-radius: var(--space-xl);
+  overflow: hidden;
+  margin: auto;
+  margin-bottom: var(--space-md);
+}
+
+.cardContent {
+  gap: 3px;
+}

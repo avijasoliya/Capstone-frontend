@@ -1,0 +1,73 @@
+:root {
+  /* Fonts Family */
+  --font-primary: "Montserrat", Arial, sans-serif, system-ui, -apple-system;
+
+  /* Colors Wrapper  */
+  /* Green */
+  --clr-primary: #1db954;
+  --clr-primary-hover: #1aa74c;
+  --clr-primary-active: #179443;
+  --clr-light-green: #e8f8ee;
+  --clr-light-green-hover: #ddf5e5;
+  --clr-light-green-active: #b9e9ca;
+  --clr-dark-green: #168b3f;
+  --clr-dark-green-hover: #116f32;
+  --clr-dark-green-active: #0d5326;
+  --clr-dark-green-disable: rgba(29, 185, 84, 0.35);
+
+  /* Gray */
+  --clr-gray: #949494;
+  --clr-gray-hover: #7f7f7f;
+  --clr-gray-active: #656565;
+
+  /* White */
+  --clr-white: #fff;
+  --clr-white-hover: #f8f8f8;
+  --clr-white-active: #eaeaea;
+
+  /* Black */
+  --clr-black: #121212;
+  --clr-black-hover: #0f0f0f;
+  --clr-black-active: #0d0d0d;
+
+  /* Extra */
+  --clr-success: #008000;
+  --clr-alert: #ffff00;
+  --clr-error: #ff0000;
+  --clr-aside: #212121;
+
+  /* Header Height */
+  --header-height: 100px;
+
+  /* Sidebar Width */
+  --sidebar-width: 240px;
+
+  /* Card Grid View  */
+  --card-grid-view: 6;
+
+  /* Icons Size */
+  --icon-xl: 8rem;
+  --icon-md: 4rem;
+
+  /* Global Font Size */
+  --html: 10px;
+
+  /* Font  Size */
+  --text-3xl: 5rem;
+  --text-2xl: 5.2rem;
+  --text-xl: 3.2rem;
+  --text-lg: 24px;
+  --text-md: 20px;
+  --text-s: 16px;
+
+  /*  Spacing */
+  --space-2xl: 24px;
+  --space-xl: 20px;
+  --space-lg: 16px;
+  --space-md: 12px;
+  --space-sm: 8px;
+  --space-xs: 4px;
+
+  /* Section Spacing */
+  --section-normal-space: 3rem;
+}

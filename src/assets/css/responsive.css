@@ -1,0 +1,152 @@
+/* Min Width */
+
+/* Max Width */
+@media (max-width: 1799px) {
+  :root {
+    /* Fonts Size */
+    --html: 9px;
+
+    /* Header Height */
+    --header-height: 90px;
+
+    /* Sidebar Width */
+    --sidebar-width: 240px;
+    --sidebar-width-collapsed: 70px;
+    --sidebar-trigger-height: 46px;
+  }
+}
+
+@media (max-width: 1599px) {
+  :root {
+    /* Fonts Size */
+    --html: 8px;
+
+    /* Header Height */
+    --header-height: 80px;
+
+    --card-grid-view: 5;
+
+    /* Sidebar Width */
+    --sidebar-width: 210px;
+  }
+}
+
+@media (max-width: 1439px) {
+  :root {
+    /* Font Size */
+    --html: 7.5px;
+    --text-lg: 23px;
+    --text-md: 19px;
+    --text-s: 15px;
+
+    /* Spacing Size */
+    --space-2xl: 22px;
+    --space-xl: 18px;
+    --space-lg: 14px;
+    --space-md: 10px;
+  }
+}
+
+@media (max-width: 1365px) {
+  :root {
+    /* Font Size */
+    --html: 7px;
+    --text-lg: 22px;
+    --text-md: 18px;
+    --text-s: 14px;
+
+    /* Spacing */
+    --space-2xl: 20px;
+    --space-xl: 16px;
+    --space-lg: 12px;
+    --space-md: 8px;
+  }
+}
+
+@media (max-width: 1279px) {
+  :root {
+    /* Fonts Size */
+    --html: 6.5px;
+    --text-lg: 19px;
+    --text-md: 15px;
+    --text-s: 13px;
+
+    /* Spacing Size */
+    --space-2xl: 19px;
+    --space-xl: 15px;
+    --space-lg: 11px;
+    --space-md: 7px;
+  }
+}
+
+@media (max-width: 1199px) {
+  :root {
+    /* Fonts Size */
+    --html: 6px;
+    --text-lg: 18px;
+    --text-md: 14px;
+    --text-s: 12.5px;
+
+    --card-grid-view: 4;
+
+    /* Spacing Size */
+    --space-2xl: 18px;
+    --space-xl: 14px;
+    --space-lg: 10px;
+    --space-md: 6px;
+  }
+}
+
+@media (max-width: 991px) {
+  :root {
+    /* Fonts Size */
+    --html: 5.5px;
+    --text-lg: 17px;
+    --text-md: 13px;
+    --text-s: 12px;
+
+    /* Spacing Size */
+    --space-2xl: 16px;
+    --space-xl: 13px;
+    --space-lg: 9px;
+  }
+}
+
+@media (max-width: 1039px) {
+  .hamburger {
+    display: block;
+  }
+}
+
+@media (max-width: 767px) {
+  :root {
+    /* Fonts Size */
+    --html: 5px;
+    --text-lg: 15px;
+    --text-md: 12.5px;
+
+    /* Spacing Size */
+    --space-2xl: 15px;
+    --space-xl: 12px;
+    --space-lg: 8px;
+  }
+}
+
+@media (max-width: 575px) {
+  :root {
+    /* Fonts Size */
+    --text-lg: 13px;
+
+    --card-grid-view: 3;
+
+    /* Spacing Size */
+    --space-2xl: 12px;
+    --space-xl: 10px;
+  }
+}
+
+@media (max-width: 480px) {
+}
+
+@media (max-width: 349px) {
+}

@@ -1,0 +1,17 @@
+{
+  "name": "SoundScape",
+  "short_name": "SoundScape",
+  "icons": [
+    {
+      "src": "./android-chrome-144x144.png",
+      "sizes": "144x144",
+      "type": "image/png"
+    }
+  ],
+  "id": "/SoundScape",
+  "start_url": "/",
+  "scope": "",
+  "theme_color": "#000000",
+  "background_color": "#000000",
+  "display": "standalone"
+}

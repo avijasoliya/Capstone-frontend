@@ -1,0 +1,261 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: var(--font-primary);
+  font-size: var(--html);
+}
+
+body {
+  font-size: var(--text-lg);
+  color: var(--clr-dark);
+  line-height: 1.5;
+}
+
+button,
+input {
+  font-family: var(--font-primary);
+}
+
+button:disabled {
+  cursor: not-allowed;
+}
+
+/* Font Family */
+.font-primary {
+  font-family: var(--font-primary);
+}
+
+/* Font Family */
+
+/* Sizes */
+h1,
+.h1 {
+  font-size: var(--text-3xl);
+}
+
+h2,
+.h2 {
+  font-size: var(--text-2xl);
+}
+
+h3,
+.h3 {
+  font-size: var(--text-xl);
+}
+
+h4,
+.h4 {
+  font-size: var(--text-lg);
+}
+
+h5,
+.h5 {
+  font-size: var(--text-md);
+}
+
+h6,
+.h6 {
+  font-size: var(--text-s);
+}
+
+p,
+.p {
+  font-size: var(--text-md);
+  color: var(--clr-text);
+}
+
+/* Sizes End */
+
+/* Colors */
+.clr-white {
+  color: var(--clr-white);
+}
+
+.clr-gray-active {
+  color: var(--clr-gray-active);
+}
+
+/* Colors End */
+
+/* spacing Start */
+.section-normal-space-mt {
+  margin-top: var(--section-normal-space);
+}
+/* spacing End */
+
+/* TEXT CLAMP */
+.text-ellipsis {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+}
+
+.line-clamp-1 {
+  -webkit-line-clamp: 1;
+}
+
+.line-clamp-2 {
+  -webkit-line-clamp: 2;
+}
+
+.line-clamp-3 {
+  -webkit-line-clamp: 3;
+}
+
+/* Utilities */
+a {
+  text-decoration: none;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.link-primary {
+  color: var(--clr-primary);
+}
+
+.link-primary:hover {
+  text-decoration: none;
+  color: var(--clr-primary);
+}
+
+.link:focus-visible {
+  outline: 1px solid var(--clr-black);
+  outline-offset: 2px;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.rounded-pill {
+  border-radius: 9999px;
+}
+
+img {
+  max-width: 100%;
+  width: 100%;
+  height: auto;
+  display: flex;
+  object-fit: cover;
+  flex: 0 0 auto;
+}
+
+/* Utilities End */
+.error-messages {
+  color: var(--clr-error);
+  font-size: 14px;
+}
+
+@media (min-width: 1024px) {
+  ::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: transparent;
+    border-radius: 20px;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: var(--clr-primary);
+    border-radius: 20px;
+  }
+}
+
+/*  */
+.list-style-none {
+  list-style: none;
+}
+
+.fw-bolder {
+  font-weight: 800 !important;
+}
+
+/* Hamburger  Start */
+.hamburger {
+  width: 40px;
+  height: 40px;
+  padding: 5px;
+  display: none;
+}
+
+.hamburger .line {
+  fill: none;
+  stroke: #000000;
+  stroke-width: 6;
+  transition: stroke-dasharray 0.1s cubic-bezier(0.4, 0, 0.2, 1),
+    stroke-dashoffset 600ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.hamburger .line:first-child {
+  stroke-dasharray: 60 207;
+  stroke-width: 6;
+}
+
+.hamburger .line:nth-child(2) {
+  stroke-dasharray: 60 60;
+  stroke-width: 6;
+}
+
+.hamburger .line:last-child {
+  stroke-dasharray: 60 207;
+  stroke-width: 6;
+}
+
+.navBarOpen .hamburger .line:first-child {
+  stroke-dasharray: 90 207;
+  stroke-dashoffset: -134;
+  stroke-width: 6;
+}
+
+.navBarOpen .hamburger .line:nth-child(2) {
+  stroke-dasharray: 1 60;
+  stroke-dashoffset: -30;
+  stroke-width: 6;
+}
+
+.navBarOpen .hamburger .line:last-child {
+  stroke-dasharray: 90 207;
+  stroke-dashoffset: -134;
+  stroke-width: 6;
+}
+
+.navBarOpen .openSider {
+  transform: translateX(0);
+}
+
+.navBarOpen .hamburger {
+  left: 135%;
+}
+
+/* Hamburger End */
+audio::-webkit-media-controls-play-button {
+  display: none;
+}
+
+audio::-webkit-media-controls-volume-control-container {
+  display: none;
+}
+/* audio::-internal-media-controls-overflow-button {
+  display: none !important;
+} */
+audio::-webkit-media-controls-enclosure {
+  background: transparent;
+}
+audio::-webkit-media-controls-current-time-display,
+audio::-webkit-media-controls-time-remaining-display {
+  color: var(--clr-white);
+  text-shadow: none;
+}
+audio::-webkit-media-controls-timeline {
+  background-color: rgba(255, 255, 255, 0.4);
+  margin-left: 7px;
+  border-radius: 30px;
+  pointer-events: none;
+}

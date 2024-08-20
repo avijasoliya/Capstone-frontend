@@ -1,0 +1,43 @@
+.Button {
+  min-height: 4.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Button > div {
+  display: none;
+}
+
+.iconsClass {
+  border-radius: 4px;
+  min-height: 4.5rem;
+  min-width: 4.5rem;
+}
+
+.Button span {
+  display: flex;
+}
+
+.likeClass {
+  border-radius: 0;
+  width: var(--icon-md);
+  height: var(--icon-md);
+}
+
+.likeClass > div {
+  display: none;
+}
+
+.likeClass:hover svg {
+  transition: all 0.3s linear;
+}
+
+.likeClass:hover svg {
+  color: var(--clr-error);
+}
+
+.like svg {
+  color: var(--clr-error);
+  fill: var(--clr-error);
+}

@@ -1,0 +1,10 @@
+.header {
+  height: var(--header-height);
+  position: relative;
+  padding: var(--space-md) var(--space-xl);
+  grid-template-columns: 1fr auto 1fr;
+}
+
+.headerLeft {
+  gap: var(--space-lg);
+}

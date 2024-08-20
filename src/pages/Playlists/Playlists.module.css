@@ -1,0 +1,4 @@
+.artistsListWrapper {
+  grid-template-columns: repeat(var(--card-grid-view), 1fr);
+  row-gap: var(--space-xl);
+}
