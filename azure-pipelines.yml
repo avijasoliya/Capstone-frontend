@@ -10,8 +10,8 @@ pool:
   vmImage: ubuntu-latest
 
 steps:
-# 1. Install Node.js
-- task: UseNode@2
+# 1. Install Node.js using the correct task name
+- task: NodeTool@0
   inputs:
     versionSpec: '16.x'
   displayName: 'Install Node.js'
@@ -20,3 +20,5 @@ steps:
     npm i -f 
     npm run dev
   displayName: 'npm install and build'
+
+  
